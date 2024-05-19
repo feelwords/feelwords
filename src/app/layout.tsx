@@ -7,8 +7,7 @@ export const metadata: Metadata = {
   title:
     "Feel Words - Des mots qui font vibrer ! Devenez auteur et monter dans le classement des meilleurs !",
   description:
-    "Participer à des concours d'écriture, monter dans le classement des meilleurs auteurs et gagner en visibilité !" +
-    " Lisez, écrivez, partagez !",
+    "Participer à des concours d'écriture, monter dans le classement des meilleurs auteurs et gagner en visibilité ! Lisez, écrivez, partagez !",
 };
 
 export default function RootLayout({
