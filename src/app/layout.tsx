@@ -8,6 +8,21 @@ export const metadata: Metadata = {
     "Feel Words - Des mots qui font vibrer ! Devenez auteur et monter dans le classement des meilleurs !",
   description:
     "Participer à des concours d'écriture, monter dans le classement des meilleurs auteurs et gagner en visibilité ! Lisez, écrivez, partagez !",
+  openGraph: {
+    title:
+      "Feel Words - Des mots qui font vibrer ! Devenez auteur et monter dans le classement des meilleurs !",
+    description:
+      "Participer à des concours d'écriture, monter dans le classement des meilleurs auteurs et gagner en visibilité ! Lisez, écrivez, partagez !",
+    url: "https://www.feelwords.fr",
+    siteName: "FeelWords",
+    images: [
+      {
+        url: "/assets/images/opengraph-feelwords.png",
+      },
+    ],
+    locale: "fr_FR",
+    type: "website",
+  },
   authors: [
     {
       name: "Robin Pluviaux",
