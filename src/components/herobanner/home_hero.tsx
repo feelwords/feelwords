@@ -1,8 +1,11 @@
 import { ashingFont, lilitaFont, robotoFont } from "@/app/_assets/fonts";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { Flip_words } from "@/components/ui/flip_words";
 
 export const HomeHero = () => {
+  const words = ["mots", "idées", "rêves"];
+
   return (
     <div
       className={cn(
@@ -12,7 +15,7 @@ export const HomeHero = () => {
     >
       <div className={"flex flex-col w-[300px] md:w-[500px] lg:w-[800px] "}>
         <h1 className={"text-4xl md:text-6xl lg:text-8xl text-white text-left"}>
-          Vos mots
+          Vos <Flip_words words={words} /> <br />
         </h1>
         <h1
           className={"text-4xl md:text-6xl lg:text-8xl text-white text-right"}
