@@ -8,6 +8,12 @@ export const metadata: Metadata = {
     "Feel Words - Des mots qui font vibrer ! Devenez auteur et monter dans le classement des meilleurs !",
   description:
     "Participer à des concours d'écriture, monter dans le classement des meilleurs auteurs et gagner en visibilité ! Lisez, écrivez, partagez !",
+  authors: [
+    {
+      name: "Robin Pluviaux",
+      url: "https://pluviaux.fr",
+    },
+  ],
 };
 
 export default function RootLayout({

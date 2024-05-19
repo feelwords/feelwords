@@ -6,7 +6,7 @@ export default function HomeHeader() {
   return (
     <header className={"absolute top-4 left-5 flex items-center text-white"}>
       <Image
-        src={"/assets/images/feelwordslogo.png"}
+        src={"/assets/images/feelwordslogo.PNG"}
         alt={"Feelwords Logo"}
         width={60}
         height={60}
